@@ -112,7 +112,7 @@ const nuevaTarea = async (tareaObj) => {
       } 
 
     try {
-        const res = await fetch(process.env.URL_BACKEND, {
+        const res = await fetch("https://young-taiga-21675.herokuapp.com/", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
