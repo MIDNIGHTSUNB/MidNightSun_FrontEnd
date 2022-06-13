@@ -1,0 +1,53 @@
+body {
+    background-color: #fff;
+}
+
+#contenedor {
+    width: 50%;
+    margin: 4px;
+    padding: 5px;
+}
+
+.texto {
+    width: 100%;
+}
+
+#boton {
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 4px;
+    border-width: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.alerta{
+    color: red;
+    margin: 4px;
+    padding: 3px;
+    font: bold;
+    text-align: center;
+    width: 25%;
+    border: solid 1px;
+    border-color: #b11;
+}
+
+.completo{
+    color: green;
+    margin: 4px;
+    padding: 3px;
+    font: bold;
+    text-align: center;
+    width: 25%;
+    border: solid 1px;
+    border-color: green;
+}
+
+
+fieldset {
+    border: 1px solid;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
